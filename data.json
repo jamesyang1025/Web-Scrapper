@@ -1,0 +1,556 @@
+{
+    "Actors": {
+        "Jennifer Connelly": {
+            "name": "Jennifer Connelly",
+            "age": 48,
+            "movies": [
+                "Top Gun: Maverick",
+                "Alita: Battle Angel",
+                "Only the Brave (2017 film)",
+                "Spider-Man: Homecoming",
+                "American Pastoral (film)",
+                "Shelter (2014 film)",
+                "Naamah (Genesis)",
+                "Noah (2014 film)",
+                "Aloft (film)",
+                "Winter's Tale (film)",
+                "Stuck in Love",
+                "Salvation Boulevard",
+                "The Dilemma",
+                "Virginia (2010 film)",
+                "Emma Darwin",
+                "Creation (2009 film)",
+                "9 (2009 animated film)",
+                "He's Just Not That Into You (film)",
+                "Inkheart (film)",
+                "The Day the Earth Stood Still (2008 film)",
+                "Reservation Road",
+                "Blood Diamond",
+                "Little Children (film)",
+                "Dark Water (2005 film)",
+                "House of Sand and Fog (film)",
+                "Betty Ross",
+                "Hulk (film)",
+                "Alicia Nash",
+                "A Beautiful Mind (film)",
+                "Ruth Kligman",
+                "Pollock (film)",
+                "Requiem for a Dream",
+                "Waking the Dead (film)",
+                "Dark City (1998 film)",
+                "Inventing the Abbotts",
+                "Mulholland Falls",
+                "Higher Learning",
+                "Of Love and Shadows",
+                "The Rocketeer (film)",
+                "Career Opportunities (film)",
+                "The Hot Spot",
+                "\u00c9toile (film)",
+                "Some Girls (film)",
+                "Labyrinth (film)",
+                "Seven Minutes in Heaven (film)",
+                "Phenomena (film)",
+                "Once Upon a Time in America"
+            ]
+        }
+    },
+    "Movies": {
+        "Top Gun: Maverick": {
+            "name": "Top Gun: Maverick",
+            "grossing": 0,
+            "starring": [
+                "Miles Teller",
+                "Val Kilmer",
+                "Jennifer Connelly",
+                "Glen Powell",
+                "Jon Hamm",
+                "Ed Harris"
+            ]
+        },
+        "Alita: Battle Angel": {
+            "name": "Alita: Battle Angel",
+            "grossing": 289200000,
+            "starring": [
+                "Rosa Salazar",
+                "Christoph Waltz",
+                "Jennifer Connelly",
+                "Mahershala Ali",
+                "Ed Skrein",
+                "Jackie Earle Haley"
+            ]
+        },
+        "Only the Brave (2017 film)": {
+            "name": "Only the Brave (2017 film)",
+            "grossing": 25800000,
+            "starring": [
+                "Josh Brolin",
+                "Miles Teller",
+                "Jeff Bridges",
+                "James Badge Dale",
+                "Taylor Kitsch",
+                "Jennifer Connelly"
+            ]
+        },
+        "Spider-Man: Homecoming": {
+            "name": "Spider-Man: Homecoming",
+            "grossing": 880200000,
+            "starring": [
+                "Tom Holland (actor)",
+                "Michael Keaton",
+                "Jon Favreau",
+                "Zendaya",
+                "Donald Glover",
+                "Tyne Daly",
+                "Marisa Tomei",
+                "Robert Downey Jr."
+            ]
+        },
+        "American Pastoral (film)": {
+            "name": "American Pastoral (film)",
+            "grossing": 1700000,
+            "starring": [
+                "Jennifer Connelly",
+                "Dakota Fanning",
+                "Peter Riegert",
+                "Rupert Evans",
+                "Uzo Aduba",
+                "Molly Parker",
+                "David Strathairn"
+            ]
+        },
+        "Shelter (2014 film)": {
+            "name": "Shelter (2014 film)",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Anthony Mackie"
+            ]
+        },
+        "Noah (2014 film)": {
+            "name": "Noah (2014 film)",
+            "grossing": 362600000,
+            "starring": [
+                "Russell Crowe",
+                "Jennifer Connelly",
+                "Ray Winstone",
+                "Emma Watson",
+                "Logan Lerman",
+                "Douglas Booth",
+                "Anthony Hopkins"
+            ]
+        },
+        "Aloft (film)": {
+            "name": "Aloft (film)",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Cillian Murphy",
+                "M\u00e9lanie Laurent"
+            ]
+        },
+        "Winter's Tale (film)": {
+            "name": "Winter's Tale (film)",
+            "grossing": 31100000,
+            "starring": [
+                "Colin Farrell",
+                "Jessica Brown Findlay",
+                "Jennifer Connelly",
+                "William Hurt",
+                "Eva Marie Saint",
+                "Graham Greene (actor)",
+                "Russell Crowe",
+                "Will Smith"
+            ]
+        },
+        "Stuck in Love": {
+            "name": "Stuck in Love",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Greg Kinnear",
+                "Lily Collins",
+                "Nat Wolff",
+                "Logan Lerman",
+                "Kristen Bell"
+            ]
+        },
+        "Salvation Boulevard": {
+            "name": "Salvation Boulevard",
+            "grossing": 0,
+            "starring": [
+                "Pierce Brosnan",
+                "Jennifer Connelly",
+                "Ed Harris",
+                "Greg Kinnear",
+                "Marisa Tomei",
+                "Jim Gaffigan"
+            ]
+        },
+        "The Dilemma": {
+            "name": "The Dilemma",
+            "grossing": 69700000,
+            "starring": [
+                "Kevin James",
+                "Jennifer Connelly",
+                "Winona Ryder",
+                "Channing Tatum",
+                "Queen Latifah"
+            ]
+        },
+        "Virginia (2010 film)": {
+            "name": "Virginia (2010 film)",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Ed Harris",
+                "Emma Roberts",
+                "Carrie Preston",
+                "Toby Jones"
+            ]
+        },
+        "Creation (2009 film)": {
+            "name": "Creation (2009 film)",
+            "grossing": 0,
+            "starring": [
+                "Paul Bettany",
+                "Jennifer Connelly",
+                "Jeremy Northam",
+                "Toby Jones",
+                "Benedict Cumberbatch",
+                "Jim Carter (actor)",
+                "Bill Paterson (actor)"
+            ]
+        },
+        "9 (2009 animated film)": {
+            "name": "9 (2009 animated film)",
+            "grossing": 48400000,
+            "starring": [
+                "Elijah Wood",
+                "John C. Reilly",
+                "Jennifer Connelly",
+                "Christopher Plummer",
+                "Crispin Glover",
+                "Martin Landau",
+                "Fred Tatasciore"
+            ]
+        },
+        "He's Just Not That Into You (film)": {
+            "name": "He's Just Not That into You (film)",
+            "grossing": 181100000,
+            "starring": [
+                "Ben Affleck",
+                "Jennifer Aniston",
+                "Drew Barrymore",
+                "Jennifer Connelly",
+                "Kevin Connolly (actor)",
+                "Bradley Cooper",
+                "Ginnifer Goodwin",
+                "Scarlett Johansson",
+                "Kris Kristofferson",
+                "Justin Long",
+                "Nana Kagga"
+            ]
+        },
+        "Inkheart (film)": {
+            "name": "Inkheart (film)",
+            "grossing": 0,
+            "starring": [
+                "Brendan Fraser",
+                "Paul Bettany",
+                "Helen Mirren",
+                "Jim Broadbent",
+                "Andy Serkis",
+                "Eliza Bennett",
+                "Rafi Gavron"
+            ]
+        },
+        "The Day the Earth Stood Still (2008 film)": {
+            "name": "The Day the Earth Stood Still (2008 film)",
+            "grossing": 233100000,
+            "starring": [
+                "Keanu Reeves",
+                "Jennifer Connelly",
+                "Jaden Smith",
+                "Kathy Bates",
+                "Jon Hamm",
+                "John Cleese",
+                "Kyle Chandler"
+            ]
+        },
+        "Reservation Road": {
+            "name": "Reservation Road",
+            "grossing": 1800000,
+            "starring": [
+                "Joaquin Phoenix",
+                "Mark Ruffalo",
+                "Jennifer Connelly",
+                "Mira Sorvino"
+            ]
+        },
+        "Blood Diamond": {
+            "name": "Blood Diamond",
+            "grossing": 171400000,
+            "starring": [
+                "Leonardo DiCaprio",
+                "Jennifer Connelly",
+                "Djimon Hounsou",
+                "Michael Sheen",
+                "Arnold Vosloo",
+                "Gaurav Chopra"
+            ]
+        },
+        "Little Children (film)": {
+            "name": "Little Children (film)",
+            "grossing": 14800000,
+            "starring": [
+                "Kate Winslet",
+                "Jennifer Connelly",
+                "Patrick Wilson (American actor)",
+                "Jackie Earle Haley",
+                "Noah Emmerich",
+                "Gregg Edelman",
+                "Phyllis Somerville"
+            ]
+        },
+        "Dark Water (2005 film)": {
+            "name": "Dark Water (2005 film)",
+            "grossing": 49400000,
+            "starring": [
+                "Jennifer Connelly",
+                "Tim Roth",
+                "John C. Reilly",
+                "Dougray Scott",
+                "Ariel Gade",
+                "Pete Postlethwaite",
+                "Perla Haney-Jardine"
+            ]
+        },
+        "House of Sand and Fog (film)": {
+            "name": "House of Sand and Fog (film)",
+            "grossing": 16900000,
+            "starring": [
+                "Ben Kingsley",
+                "Shohreh Aghdashloo",
+                "Jennifer Connelly",
+                "Ron Eldard",
+                "Frances Fisher",
+                "Kim Dickens"
+            ]
+        },
+        "Hulk (film)": {
+            "name": "Hulk (film)",
+            "grossing": 245400000,
+            "starring": [
+                "Eric Bana",
+                "Jennifer Connelly",
+                "Sam Elliott",
+                "Josh Lucas",
+                "Nick Nolte"
+            ]
+        },
+        "A Beautiful Mind (film)": {
+            "name": "A Beautiful Mind (film)",
+            "grossing": 313000000,
+            "starring": [
+                "Russell Crowe",
+                "Ed Harris",
+                "Jennifer Connelly",
+                "Paul Bettany",
+                "Adam Goldberg",
+                "Judd Hirsch",
+                "Josh Lucas",
+                "Anthony Rapp",
+                "Christopher Plummer"
+            ]
+        },
+        "Pollock (film)": {
+            "name": "Pollock (film)",
+            "grossing": 0,
+            "starring": [
+                "Marcia Gay Harden",
+                "Tom Bower",
+                "Jennifer Connelly",
+                "Bud Cort",
+                "John Heard (actor)",
+                "Val Kilmer",
+                "Amy Madigan",
+                "Stephanie Seymour",
+                "Matthew Sussman",
+                "Jeffrey Tambor",
+                "Sada Thompson",
+                "Norbert Weisser"
+            ]
+        },
+        "Requiem for a Dream": {
+            "name": "Requiem for a Dream",
+            "grossing": 7400000,
+            "starring": [
+                "Ellen Burstyn",
+                "Jared Leto",
+                "Jennifer Connelly",
+                "Marlon Wayans"
+            ]
+        },
+        "Waking the Dead (film)": {
+            "name": "Waking the Dead (film)",
+            "grossing": 0,
+            "starring": [
+                "Billy Crudup",
+                "Jennifer Connelly",
+                "Molly Parker",
+                "Janet McTeer",
+                "Paul Hipp",
+                "Sandra Oh",
+                "Hal Holbrook"
+            ]
+        },
+        "Dark City (1998 film)": {
+            "name": "Dark City (1998 film)",
+            "grossing": 27200000,
+            "starring": [
+                "Rufus Sewell",
+                "Kiefer Sutherland",
+                "Jennifer Connelly",
+                "Richard O'Brien",
+                "Ian Richardson",
+                "William Hurt"
+            ]
+        },
+        "Inventing the Abbotts": {
+            "name": "Inventing the Abbotts",
+            "grossing": 5900000,
+            "starring": [
+                "Liv Tyler",
+                "Joaquin Phoenix",
+                "Billy Crudup",
+                "Jennifer Connelly",
+                "Joanna Going",
+                "Will Patton",
+                "Kathy Baker"
+            ]
+        },
+        "Mulholland Falls": {
+            "name": "Mulholland Falls",
+            "grossing": 11500000,
+            "starring": [
+                "Nick Nolte",
+                "Melanie Griffith",
+                "Chazz Palminteri",
+                "Michael Madsen",
+                "Chris Penn",
+                "Treat Williams",
+                "Jennifer Connelly",
+                "Andrew McCarthy",
+                "John Malkovich"
+            ]
+        },
+        "Higher Learning": {
+            "name": "Higher Learning",
+            "grossing": 0,
+            "starring": [
+                "Omar Epps",
+                "Ice Cube",
+                "Kristy Swanson",
+                "Michael Rapaport",
+                "Jennifer Connelly",
+                "Laurence Fishburne"
+            ]
+        },
+        "Of Love and Shadows": {
+            "name": "Of Love and Shadows",
+            "grossing": 0,
+            "starring": [
+                "Antonio Banderas",
+                "Jennifer Connelly",
+                "Stefania Sandrelli",
+                "Patricio Contreras"
+            ]
+        },
+        "The Rocketeer (film)": {
+            "name": "The Rocketeer (film)",
+            "grossing": 46700000,
+            "starring": [
+                "Billy Campbell",
+                "Alan Arkin",
+                "Jennifer Connelly",
+                "Paul Sorvino",
+                "Timothy Dalton"
+            ]
+        },
+        "Career Opportunities (film)": {
+            "name": "Career Opportunities (film)",
+            "grossing": 11300000,
+            "starring": [
+                "Frank Whaley",
+                "Jennifer Connelly",
+                "Dermot Mulroney"
+            ]
+        },
+        "The Hot Spot": {
+            "name": "The Hot Spot",
+            "grossing": 0,
+            "starring": [
+                "Don Johnson",
+                "Virginia Madsen",
+                "Jennifer Connelly",
+                "Charles Martin Smith"
+            ]
+        },
+        "\u00c9toile (film)": {
+            "name": "\u00c9toile (film)",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Laurent Terzieff"
+            ]
+        },
+        "Some Girls (film)": {
+            "name": "Some Girls (film)",
+            "grossing": 0,
+            "starring": [
+                "Patrick Dempsey"
+            ]
+        },
+        "Labyrinth (film)": {
+            "name": "Labyrinth (film)",
+            "grossing": 12900000,
+            "starring": [
+                "David Bowie",
+                "Jennifer Connelly"
+            ]
+        },
+        "Seven Minutes in Heaven (film)": {
+            "name": "Seven Minutes in Heaven (film)",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Byron Thames",
+                "Maddie Corman"
+            ]
+        },
+        "Phenomena (film)": {
+            "name": "Phenomena (film)",
+            "grossing": 0,
+            "starring": [
+                "Jennifer Connelly",
+                "Daria Nicolodi",
+                "Dalila Di Lazzaro",
+                "Donald Pleasence",
+                "Patrick Bauchau"
+            ]
+        },
+        "Once Upon a Time in America": {
+            "name": "Once Upon a Time in America",
+            "grossing": 5300000,
+            "starring": [
+                "Robert De Niro",
+                "James Woods",
+                "Elizabeth McGovern",
+                "Joe Pesci",
+                "Burt Young",
+                "Tuesday Weld",
+                "Treat Williams"
+            ]
+        }
+    }
+}

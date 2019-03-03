@@ -12,8 +12,8 @@ actors_threshold = 275
 movies_threshold = 150
 
 
-def start_scrapping(start_actor):
-    scrape_actor(start_actor)
+def start_scrapping(start_actor_name):
+    scrape_actor(start_actor_name)
 
     i = 0
     j = 0
@@ -29,8 +29,6 @@ def start_scrapping(start_actor):
                 scrape_movie(movie)
             i += 1
 
-        print("movies count = " + str(len(movies_dict)))
-
         for index, movie in enumerate(movies_dict):
             if index < j:
                 continue
@@ -42,12 +40,10 @@ def start_scrapping(start_actor):
                 scrape_actor(actor)
             j += 1
 
-        print("actors count = " + str(len(actors_dict)))
-
 
 def scrape_actor(actor_name):
     if actor_name is None:
-        logging.error("Actor name is empty")
+        logging.warning("Actor name is empty")
         return
 
     url = "https://en.wikipedia.org/wiki/" + actor_name
@@ -68,7 +64,7 @@ def scrape_actor(actor_name):
     age = int(re.findall('\d+', age)[0])
     movies_table = soup.find('table', {'class': 'wikitable sortable'})
     if movies_table is None:
-        logging.info("Fail to find the filmography table for " + actor_name)
+        logging.warning("Fail to find the filmography table for " + actor_name)
         return
 
     movies = movies_table.find_all('a')
@@ -84,7 +80,7 @@ def scrape_actor(actor_name):
 
 def scrape_movie(movie_name):
     if movie_name is None:
-        logging.error("Movie name is empty")
+        logging.warning("Movie name is empty")
         return
 
     url = "https://en.wikipedia.org/wiki/" + movie_name
@@ -147,8 +143,6 @@ if __name__ == '__main__':
     start_url = "https://en.wikipedia.org/wiki/Jennifer_Connelly"
     start_actor = "Jennifer Connelly"
     start_scrapping(start_actor)
-    # print(actors_dict)
-    # print(movies_dict)
 
     with open("data.json", 'w') as file_out:
         data = {"Actors": actors_dict, "Movies": movies_dict}

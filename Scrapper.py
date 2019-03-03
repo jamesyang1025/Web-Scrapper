@@ -8,8 +8,8 @@ import json
 actors_dict = {}
 movies_dict = {}
 
-actors_threshold = 260
-movies_threshold = 130
+actors_threshold = 275
+movies_threshold = 150
 
 
 def start_scrapping(start_actor):
@@ -49,7 +49,7 @@ def scrape_actor(actor_name):
     if actor_name is None:
         logging.error("Actor name is empty")
         return
-    
+
     url = "https://en.wikipedia.org/wiki/" + actor_name
 
     page = requests.get(url)
@@ -74,6 +74,10 @@ def scrape_actor(actor_name):
     movies = movies_table.find_all('a')
     movies_list = []
     for movie in reversed(movies):
+        if movie.get('title') is None:
+            logging.info("Not a movie")
+            continue
+
         movies_list.append(movie.get('title'))
     actors_dict[name] = {"name": name, "age": age, "movies": movies_list}
 
@@ -130,6 +134,10 @@ def scrape_movie(movie_name):
 
     actors_list = []
     for actor in actors:
+        if actor.get('title') is None:
+            logging.info("Not an actor")
+            continue
+
         actors_list.append(actor.get('title'))
 
     movies_dict[movie_name] = {"name": name, "grossing": grossing, "year": year, "starring": actors_list}

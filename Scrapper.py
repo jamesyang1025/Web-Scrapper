@@ -40,6 +40,29 @@ def start_scrapping(start_actor_name):
                 scrape_actor(actor)
             j += 1
 
+    for actor in actors_dict:
+        total_gross = 0
+        for movie in actors_dict[actor]["movies"]:
+            try:
+                box_office = movies_dict[movie]["grossing"]
+            except KeyError:
+                continue
+            starring_list = movies_dict[movie]["starring"]
+            # index = 0
+            try:
+                index = starring_list.index(actor)
+            except ValueError:
+                continue
+
+            length = len(starring_list)
+            weight = (length - index) / sum(x for x in range(1, length + 1))
+            total_gross += box_office * weight
+        # actors_dict[actor]["total gross"] = total_gross
+        name = actors_dict[actor]["name"]
+        age = actors_dict[actor]["age"]
+        movies_list = actors_dict[actor]["movies"]
+        actors_dict[actor] = {"name": name, "age": age, "total gross": int(total_gross), "movies": movies_list}
+
 
 def scrape_actor(actor_name):
     if actor_name is None:
@@ -64,8 +87,10 @@ def scrape_actor(actor_name):
     age = int(re.findall('\d+', age)[0])
     movies_table = soup.find('table', {'class': 'wikitable sortable'})
     if movies_table is None:
-        logging.warning("Fail to find the filmography table for " + actor_name)
-        return
+        movies_table = soup.find('table', {'class': 'wikitable'})
+        if movies_table is None:
+            logging.warning("Fail to find the filmography table for " + actor_name)
+            return
 
     movies = movies_table.find_all('a')
     movies_list = []

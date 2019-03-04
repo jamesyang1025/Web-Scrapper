@@ -13,6 +13,10 @@ movies_threshold = 150
 
 
 def start_scrapping(start_actor_name):
+    """
+    Start scrapping with the start actor page
+    :param start_actor_name: the start actor's name
+    """
     logging.info("Start scrapping")
 
     scrape_actor(start_actor_name)
@@ -65,6 +69,10 @@ def start_scrapping(start_actor_name):
 
 
 def scrape_actor(actor_name):
+    """
+    Scrape the input actor's data
+    :param actor_name: the actor's name
+    """
     logging.info("Scrapping data for actor: " + actor_name)
 
     if actor_name is None:
@@ -106,6 +114,10 @@ def scrape_actor(actor_name):
 
 
 def scrape_movie(movie_name):
+    """
+    Scrape the input movie's data
+    :param movie_name: the input movie's name
+    """
     logging.info("Scrapping data for movie: " + movie_name)
 
     if movie_name is None:
@@ -168,7 +180,19 @@ def scrape_movie(movie_name):
     movies_dict[movie_name] = {"name": name, "grossing": grossing, "year": year, "starring": actors_list}
 
 
+def store_to_json():
+    """
+    Store the scrapped data into a json file
+    """
+    with open("data.json", 'w') as file_out:
+        data = {"Actors": actors_dict, "Movies": movies_dict}
+        json.dump(data, file_out, indent=4)
+        logging.info("Writing to json file completed")
+
+
 if __name__ == '__main__':
+
+    # set up logger
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.DEBUG)
     handler = logging.FileHandler('scrapper.log', 'w', 'utf-8')
@@ -176,10 +200,9 @@ if __name__ == '__main__':
     handler.setFormatter(formatter)
     root_logger.addHandler(handler)
 
+    # set start actor
     start_actor = "Jennifer Connelly"
     start_scrapping(start_actor)
 
-    with open("data.json", 'w') as file_out:
-        data = {"Actors": actors_dict, "Movies": movies_dict}
-        json.dump(data, file_out, indent=4)
-        logging.info("Writing to json file completed")
+    # store the scrapped data into a json file
+    store_to_json()

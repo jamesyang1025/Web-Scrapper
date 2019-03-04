@@ -11,7 +11,7 @@ root - WARNING - Cannot find box office for Top Gun: Maverick
 root - INFO - Scrapping data for movie: Alita: Battle Angel
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Alita:%20Battle%20Angel HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Alita:_Battle_Angel HTTP/1.1" 200 49057
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Alita:_Battle_Angel HTTP/1.1" 200 48846
 root - INFO - Scrapping data for movie: Only the Brave (2017 film)
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Only%20the%20Brave%20(2017%20film) HTTP/1.1" 301 0
@@ -566,7 +566,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Ed_Harr
 root - INFO - Scrapping data for actor: Emma Roberts
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Emma%20Roberts HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Emma_Roberts HTTP/1.1" 200 44817
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Emma_Roberts HTTP/1.1" 200 44982
 root - WARNING - Not a movie
 root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Carrie Preston
@@ -644,7 +644,7 @@ root - WARNING - Fail to find the age info for Martin Landau
 root - INFO - Scrapping data for actor: Fred Tatasciore
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Fred%20Tatasciore HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Fred_Tatasciore HTTP/1.1" 200 49885
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Fred_Tatasciore HTTP/1.1" 200 49919
 root - WARNING - Not a movie
 root - WARNING - Not a movie
 root - WARNING - Not a movie
@@ -1375,7 +1375,7 @@ root - WARNING - Fail to find the age info for Laurent Terzieff
 root - INFO - Scrapping data for actor: Patrick Dempsey
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Patrick%20Dempsey HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Patrick_Dempsey HTTP/1.1" 200 53437
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Patrick_Dempsey HTTP/1.1" 200 53438
 root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: David Bowie
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -1987,7 +1987,7 @@ root - WARNING - Cannot find box office for Top Gun: Maverick
 root - INFO - Scrapping data for movie: Set It Up
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Set%20It%20Up HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Set_It_Up HTTP/1.1" 200 16233
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Set_It_Up HTTP/1.1" 200 16388
 root - WARNING - Cannot find box office for Set It Up
 root - INFO - Scrapping data for movie: The Guernsey Literary and Potato Peel Pie Society (film)
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -2263,7 +2263,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Kate_Ma
 root - INFO - Scrapping data for actor: Jamie Bell
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Jamie%20Bell HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Jamie_Bell HTTP/1.1" 200 30382
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Jamie_Bell HTTP/1.1" 200 30385
 root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Toby Kebbell
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -2455,7 +2455,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Shailen
 root - INFO - Scrapping data for actor: Brie Larson
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Brie%20Larson HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Brie_Larson HTTP/1.1" 200 72653
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Brie_Larson HTTP/1.1" 200 72670
 root - WARNING - Fail to find the filmography table for Brie Larson
 root - INFO - Scrapping data for actor: Mary Elizabeth Winstead
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -2610,7 +2610,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Jake_T.
 root - INFO - Scrapping data for actor: Emma Roberts
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Emma%20Roberts HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Emma_Roberts HTTP/1.1" 200 44817
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Emma_Roberts HTTP/1.1" 200 44982
 root - WARNING - Not a movie
 root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Nat Wolff
@@ -2742,7 +2742,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Val_Kil
 root - INFO - Scrapping data for actor: Diana Degarmo
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Diana%20Degarmo HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Diana_Degarmo HTTP/1.1" 200 28983
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Diana_Degarmo HTTP/1.1" 200 29083
 root - INFO - Scrapping data for actor: Kaitlyn Black
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Kaitlyn%20Black HTTP/1.1" 301 0

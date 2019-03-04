@@ -49,7 +49,7 @@ class Graph:
         actor = Actor(actor_name, actor_data["age"], actor_data["total gross"], actor_data["movies"])
         self.actors.append(actor)
 
-    def add_movies(self, movie_name, movie_data):
+    def add_movie(self, movie_name, movie_data):
         """
         Add a movie node to the graph
         :param movie_name: the movie's name

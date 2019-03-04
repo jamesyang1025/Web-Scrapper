@@ -15,7 +15,7 @@ def load_data_to_graph(graph):
 
         movies_data = data['Movies']
         for movie in movies_data:
-            graph.add_movies(movie, movies_data[movie])
+            graph.add_movie(movie, movies_data[movie])
 
         for movie in movies_data:
             starring_list = movies_data[movie]['starring']

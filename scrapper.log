@@ -602,7 +602,7 @@ root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Benedict Cumberbatch
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Benedict%20Cumberbatch HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Benedict_Cumberbatch HTTP/1.1" 200 73912
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Benedict_Cumberbatch HTTP/1.1" 200 73903
 root - WARNING - Fail to find the filmography table for Benedict Cumberbatch
 root - INFO - Scrapping data for actor: Jim Carter (actor)
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -628,7 +628,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Jennife
 root - INFO - Scrapping data for actor: Christopher Plummer
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Christopher%20Plummer HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Christopher_Plummer HTTP/1.1" 200 61661
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Christopher_Plummer HTTP/1.1" 200 61684
 root - WARNING - Fail to find the filmography table for Christopher Plummer
 root - INFO - Scrapping data for actor: Crispin Glover
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -783,7 +783,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Paul_Be
 root - INFO - Scrapping data for actor: Helen Mirren
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Helen%20Mirren HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Helen_Mirren HTTP/1.1" 200 94132
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Helen_Mirren HTTP/1.1" 200 94133
 root - INFO - Scrapping data for actor: Jim Broadbent
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Jim%20Broadbent HTTP/1.1" 301 0
@@ -877,7 +877,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Djimon_
 root - INFO - Scrapping data for actor: Michael Sheen
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Michael%20Sheen HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Michael_Sheen HTTP/1.1" 200 86943
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Michael_Sheen HTTP/1.1" 200 86952
 root - WARNING - Fail to find the filmography table for Michael Sheen
 root - INFO - Scrapping data for actor: Arnold Vosloo
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -1021,7 +1021,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Adam_Go
 root - INFO - Scrapping data for actor: Judd Hirsch
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Judd%20Hirsch HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Judd_Hirsch HTTP/1.1" 200 28581
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Judd_Hirsch HTTP/1.1" 200 28584
 root - INFO - Scrapping data for actor: Josh Lucas
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Josh%20Lucas HTTP/1.1" 301 0
@@ -1034,7 +1034,7 @@ root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Christopher Plummer
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Christopher%20Plummer HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Christopher_Plummer HTTP/1.1" 200 61661
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Christopher_Plummer HTTP/1.1" 200 61684
 root - WARNING - Fail to find the filmography table for Christopher Plummer
 root - INFO - Scrapping data for actor: Marcia Gay Harden
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -1136,7 +1136,7 @@ root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Hal Holbrook
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Hal%20Holbrook HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Hal_Holbrook HTTP/1.1" 200 40473
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Hal_Holbrook HTTP/1.1" 200 40476
 root - WARNING - Not a movie
 root - WARNING - Not a movie
 root - WARNING - Not a movie
@@ -1147,7 +1147,7 @@ root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Rufus Sewell
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Rufus%20Sewell HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Rufus_Sewell HTTP/1.1" 200 27906
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Rufus_Sewell HTTP/1.1" 200 27911
 root - INFO - Scrapping data for actor: Kiefer Sutherland
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Kiefer%20Sutherland HTTP/1.1" 301 0
@@ -1261,7 +1261,7 @@ root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: John Malkovich
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/John%20Malkovich HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/John_Malkovich HTTP/1.1" 200 42855
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/John_Malkovich HTTP/1.1" 200 42869
 root - INFO - Scrapping data for actor: Omar Epps
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Omar%20Epps HTTP/1.1" 301 0
@@ -1943,7 +1943,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Thunder
 root - INFO - Scrapping data for movie: MTV Movie Award for Best Actor in a Movie
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/MTV%20Movie%20Award%20for%20Best%20Actor%20in%20a%20Movie HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/MTV_Movie_Award_for_Best_Actor_in_a_Movie HTTP/1.1" 200 24373
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/MTV_Movie_Award_for_Best_Actor_in_a_Movie HTTP/1.1" 200 24374
 root - WARNING - Cannot find info table for MTV Movie Award for Best Actor in a Movie
 root - INFO - Scrapping data for movie: Chicago Film Critics Association Award for Best Actor
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -2532,7 +2532,7 @@ root - WARNING - Not a movie
 root - INFO - Scrapping data for actor: Nicole Kidman
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Nicole%20Kidman HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Nicole_Kidman HTTP/1.1" 200 94431
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Nicole_Kidman HTTP/1.1" 200 94446
 root - WARNING - Fail to find the filmography table for Nicole Kidman
 root - INFO - Scrapping data for actor: Aaron Eckhart
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
@@ -2971,7 +2971,7 @@ urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Kris_Kr
 root - INFO - Scrapping data for actor: Hilary Duff
 urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
 urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Hilary%20Duff HTTP/1.1" 301 0
-urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Hilary_Duff HTTP/1.1" 200 85351
+urllib3.connectionpool - DEBUG - https://en.wikipedia.org:443 "GET /wiki/Hilary_Duff HTTP/1.1" 200 85462
 root - WARNING - Not a movie
 root - WARNING - Not a movie
 root - WARNING - Not a movie

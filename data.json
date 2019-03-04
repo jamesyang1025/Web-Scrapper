@@ -215,7 +215,7 @@
         "Jon Hamm": {
             "name": "Jon Hamm",
             "age": 47,
-            "total gross": 35517539,
+            "total gross": 35503253,
             "movies": [
                 "Top Gun: Maverick",
                 "Lucy in the Sky (film)",
@@ -655,7 +655,7 @@
         "Jeff Bridges": {
             "name": "Jeff Bridges",
             "age": 69,
-            "total gross": 12914285,
+            "total gross": 12889285,
             "movies": [
                 "Living in the Future's Past",
                 "Bad Times at the El Royale",
@@ -14756,7 +14756,7 @@
         },
         "Bad Times at the El Royale": {
             "name": "Bad Times at the El Royale",
-            "grossing": 32000000,
+            "grossing": 31900000,
             "year": "2018",
             "starring": [
                 "Jeff Bridges",

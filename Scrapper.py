@@ -13,6 +13,8 @@ movies_threshold = 150
 
 
 def start_scrapping(start_actor_name):
+    logging.info("Start scrapping")
+
     scrape_actor(start_actor_name)
 
     i = 0
@@ -48,7 +50,6 @@ def start_scrapping(start_actor_name):
             except KeyError:
                 continue
             starring_list = movies_dict[movie]["starring"]
-            # index = 0
             try:
                 index = starring_list.index(actor)
             except ValueError:
@@ -57,7 +58,6 @@ def start_scrapping(start_actor_name):
             length = len(starring_list)
             weight = (length - index) / sum(x for x in range(1, length + 1))
             total_gross += box_office * weight
-        # actors_dict[actor]["total gross"] = total_gross
         name = actors_dict[actor]["name"]
         age = actors_dict[actor]["age"]
         movies_list = actors_dict[actor]["movies"]
@@ -65,6 +65,8 @@ def start_scrapping(start_actor_name):
 
 
 def scrape_actor(actor_name):
+    logging.info("Scrapping data for actor: " + actor_name)
+
     if actor_name is None:
         logging.warning("Actor name is empty")
         return
@@ -80,7 +82,7 @@ def scrape_actor(actor_name):
     name = soup.find(id='firstHeading').get_text()
     age = soup.find('span', {'class': 'noprint ForceAgeToShow'})
     if age is None:
-        logging.info("Fail to find the age info for " + actor_name)
+        logging.warning("Fail to find the age info for " + actor_name)
         return
 
     age = age.get_text()
@@ -96,7 +98,7 @@ def scrape_actor(actor_name):
     movies_list = []
     for movie in reversed(movies):
         if movie.get('title') is None:
-            logging.info("Not a movie")
+            logging.warning("Not a movie")
             continue
 
         movies_list.append(movie.get('title'))
@@ -104,6 +106,8 @@ def scrape_actor(actor_name):
 
 
 def scrape_movie(movie_name):
+    logging.info("Scrapping data for movie: " + movie_name)
+
     if movie_name is None:
         logging.warning("Movie name is empty")
         return
@@ -119,7 +123,7 @@ def scrape_movie(movie_name):
     name = soup.find(id='firstHeading').get_text()
     info_table = soup.find('table', {'class': 'infobox vevent'})
     if info_table is None:
-        logging.info("Cannot find info table for " + movie_name)
+        logging.warning("Cannot find info table for " + movie_name)
         return
     info = info_table.find_all('tr')
 
@@ -139,7 +143,7 @@ def scrape_movie(movie_name):
 
     grossing = 0
     if box_office == "":
-        logging.info("Cannot find box office for " + movie_name)
+        logging.warning("Cannot find box office for " + movie_name)
         grossing = 0
     else:
         if "million" in box_office:
@@ -150,13 +154,13 @@ def scrape_movie(movie_name):
             grossing = int(grossing)
 
     if actors is None:
-        logging.info("Fail to find starring info for " + movie_name)
+        logging.warning("Fail to find starring info for " + movie_name)
         return
 
     actors_list = []
     for actor in actors:
         if actor.get('title') is None:
-            logging.info("Not an actor")
+            logging.warning("Not an actor")
             continue
 
         actors_list.append(actor.get('title'))
@@ -165,7 +169,13 @@ def scrape_movie(movie_name):
 
 
 if __name__ == '__main__':
-    start_url = "https://en.wikipedia.org/wiki/Jennifer_Connelly"
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.DEBUG)
+    handler = logging.FileHandler('scrapper.log', 'w', 'utf-8')
+    formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+    handler.setFormatter(formatter)
+    root_logger.addHandler(handler)
+
     start_actor = "Jennifer Connelly"
     start_scrapping(start_actor)
 

@@ -33,4 +33,26 @@ if __name__ == '__main__':
 
     load_data_to_graph(graph)
 
-    graph.find_hub_actors()
+    print("Database set up complete. Please select how you want to interact with it. :)")
+
+    while True:
+        action = input("\n"
+                       "[1] Find out the hub actors in the dataset\n"
+                       "[2] Find out the age groups that generate the most amount of money\n")
+
+        if action not in "12" or len(action) != 1:
+            print("Invalid input. Please input again. :)\n")
+            continue
+
+        if action == '1':
+            print("You selected: [1] Find out the hub actors in the dataset\n")
+
+            graph.find_hub_actors()
+
+        elif action == '2':
+            print("You selected: [2] Find out the age groups that generate the most amount of money\n")
+
+            graph.find_most_grossing_age_group()
+
+
+

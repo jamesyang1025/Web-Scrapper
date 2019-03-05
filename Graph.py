@@ -1,6 +1,5 @@
 import operator
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 class Actor:
@@ -200,10 +199,40 @@ class Graph:
             hub_dict[actor] = len(connections)
 
         sorted_hub_dict = sorted(hub_dict.items(), key=operator.itemgetter(1), reverse=True)
-        print(sorted_hub_dict)
 
         names = [x[0] for x in sorted_hub_dict]
         scores = [x[1] for x in sorted_hub_dict]
+
+        print("The \"hub\" actor is " + names[0])
+
         plt.bar(names[:20], scores[:20])
+        plt.xticks(rotation=90)
+        plt.show()
+
+    def find_most_grossing_age_group(self):
+        """
+        Find and plot the age groups that generates most amount of money
+        """
+        ages_grossing = {}
+
+        for actor in self.actors:
+            age = actor.age
+            if age not in ages_grossing:
+                ages_grossing[actor.age] = actor.grossing
+            else:
+                ages_grossing[actor.age] += actor.grossing
+
+        age_group_grossing = {}
+        i = 1
+        j = 5
+        while j <= 100:
+            age_group_grossing['' + str(i) + '-' + str(j)] = 0
+            age_group_grossing['' + str(i) + '-' + str(j)] = sum([v for k, v in ages_grossing.items() if i <= k <= j])
+            i += 5
+            j += 5
+
+        print("The age group that generates the most amount of money is " + max(age_group_grossing.items(), key=operator.itemgetter(1))[0])
+
+        plt.bar(age_group_grossing.keys(), age_group_grossing.values())
         plt.xticks(rotation=90)
         plt.show()

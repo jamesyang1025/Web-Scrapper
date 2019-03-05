@@ -33,3 +33,4 @@ if __name__ == '__main__':
 
     load_data_to_graph(graph)
 
+    graph.find_hub_actors()

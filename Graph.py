@@ -1,3 +1,8 @@
+import operator
+import matplotlib.pyplot as plt
+import numpy as np
+
+
 class Actor:
 
     def __init__(self, name, age, grossing, movies):
@@ -75,6 +80,8 @@ class Graph:
             if a.name == actor_name:
                 actor = a
 
+        if actor is None or movie is None:
+            return
         edge = (movie, actor, weight)
         self.edges.append(edge)
 
@@ -168,3 +175,35 @@ class Graph:
                 print(actor)
                 ret_list.append(actor)
         return ret_list
+
+    def find_hub_actors(self):
+        """
+        Find the hub actors in the graph and plot the top 20 hub actors
+        """
+        hub_dict = {}
+
+        for i in range(len(self.actors)):
+            actor = self.actors[i].name
+            movies_list = self.actors[i].movies
+            connections = []
+            for movie in movies_list:
+                edges_dict = {}
+                for e in self.edges:
+                    if e[0].name == movie:
+                        edges_dict[e[1].name] = e
+
+                if actor in edges_dict:
+                    for e in edges_dict.values():
+                        if e[1].name != actor and e[1].name not in connections:
+                            connections.append(e[1].name)
+
+            hub_dict[actor] = len(connections)
+
+        sorted_hub_dict = sorted(hub_dict.items(), key=operator.itemgetter(1), reverse=True)
+        print(sorted_hub_dict)
+
+        names = [x[0] for x in sorted_hub_dict]
+        scores = [x[1] for x in sorted_hub_dict]
+        plt.bar(names[:20], scores[:20])
+        plt.xticks(rotation=90)
+        plt.show()

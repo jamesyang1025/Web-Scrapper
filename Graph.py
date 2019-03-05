@@ -84,100 +84,10 @@ class Graph:
         edge = (movie, actor, weight)
         self.edges.append(edge)
 
-    def print_movie_grossing(self, movie_name):
-        """
-        Print the grossing information for the input movie
-        :param movie_name: the input movie
-        :return the grossing of the movie
-        """
-
-        for movie in self.movies:
-            if movie.name == movie_name:
-                print("$" + str(movie.grossing))
-                return movie.grossing
-
-    def print_movies_for_actor(self, actor_name):
-        """
-        Print all the movies the actor has worked in
-        :param actor_name: the actor's name
-        :return the movie name
-        """
-        for actor in self.actors:
-            if actor.name == actor_name:
-                for movie in actor.movies:
-                    print(movie)
-                return actor.movies
-
-    def print_actors_for_movie(self, movie_name):
-        """
-        Print all the actors that worked in the movie
-        :param movie_name: the movie's name
-        :return the starring list of the movie
-        """
-        for movie in self.movies:
-            if movie.name == movie_name:
-                for actor in movie.starring:
-                    print(actor)
-                return movie.starring
-
-    def print_top_x_grossing_actors(self, x):
-        """
-        Print the top X actors with the most total grossing value
-        :param x: the top X actors
-        :return the list of the top X grossing actors
-        """
-        sorted_list = sorted(self.actors, key=lambda actor: actor.grossing, reverse=True)
-        ret_list = []
-        for i in range(x):
-            print(sorted_list[i].name)
-            ret_list.append(sorted_list[i].name)
-        return ret_list
-
-    def print_oldest_x_actor(self, x):
-        """
-        Print the oldest X actor
-        :param x: the top X actors
-        :return the list of the oldest X actors
-        """
-        sorted_list = sorted(self.actors, key=lambda actor: actor.age, reverse=True)
-        ret_list = []
-        for i in range(x):
-            print(sorted_list[i].name)
-            ret_list.append(sorted_list[i].name)
-        return ret_list
-
-    def print_movies_in_given_year(self, year):
-        """
-        Print all the movies in a given year
-        :param year: the input year
-        :return the list of movies in the given year
-        """
-        list = [movie for movie in self.movies if movie.year == year]
-
-        ret_list = []
-        for m in list:
-            print(m.name)
-            ret_list.append(m.name)
-        return ret_list
-
-    def print_actors_in_given_year(self, year):
-        """
-        Print all the actors in a given year
-        :param year: the input year
-        :return the list of actors in the given year
-        """
-        movies_list = [movie for movie in self.movies if movie.year == year]
-
-        ret_list = []
-        for m in movies_list:
-            for actor in m.starring:
-                print(actor)
-                ret_list.append(actor)
-        return ret_list
-
     def find_hub_actors(self):
         """
         Find the hub actors in the graph and plot the top 20 hub actors
+        :return the hub actor
         """
         hub_dict = {}
 
@@ -209,9 +119,12 @@ class Graph:
         plt.xticks(rotation=90)
         plt.show()
 
+        return names[0]
+
     def find_most_grossing_age_group(self):
         """
         Find and plot the age groups that generates most amount of money
+        :return the age group that generates the most amount of money
         """
         ages_grossing = {}
 
@@ -231,8 +144,11 @@ class Graph:
             i += 5
             j += 5
 
-        print("The age group that generates the most amount of money is " + max(age_group_grossing.items(), key=operator.itemgetter(1))[0])
+        print("The age group that generates the most amount of money is " +
+              max(age_group_grossing.items(), key=operator.itemgetter(1))[0])
 
         plt.bar(age_group_grossing.keys(), age_group_grossing.values())
         plt.xticks(rotation=90)
         plt.show()
+
+        return max(age_group_grossing.items(), key=operator.itemgetter(1))[0]

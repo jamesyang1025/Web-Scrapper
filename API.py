@@ -7,6 +7,12 @@ Reference: https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-pyt
 
 app = Flask(__name__)
 
+with open('data.json', encoding='utf-8') as json_file:
+    data = json.load(json_file)
+
+    actors_data = data[0]
+    movies_data = data[1]
+
 
 @app.route('/actors', methods=['GET'])
 def filter_actor():
@@ -205,10 +211,4 @@ def not_found(error):
 
 
 if __name__ == '__main__':
-    with open('data.json', encoding='utf-8') as json_file:
-        data = json.load(json_file)
-
-        actors_data = data[0]
-        movies_data = data[1]
-
     app.run(debug=True)

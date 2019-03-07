@@ -10,7 +10,7 @@ class TestGraph(unittest.TestCase):
 
         Main.load_data_to_graph(graph)
 
-        self.assertEqual(350500000, graph.print_movie_grossing("Alita: Battle Angel"))
+        self.assertEqual(20500000, graph.print_movie_grossing("Top Secret!"))
 
     def test_print_movies_for_actor(self):
         graph = Graph()

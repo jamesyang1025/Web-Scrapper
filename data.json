@@ -3,7 +3,7 @@
         "Jennifer Connelly": {
             "name": "Jennifer Connelly",
             "age": 48,
-            "total gross": 450145880,
+            "total gross": 450488737,
             "movies": [
                 "Top Gun: Maverick",
                 "Alita: Battle Angel",
@@ -346,7 +346,7 @@
         "Rosa Salazar": {
             "name": "Rosa Salazar",
             "age": 33,
-            "total gross": 100142857,
+            "total gross": 100657142,
             "movies": [
                 "List of Battle Angel Alita characters",
                 "Alita: Battle Angel",
@@ -365,7 +365,7 @@
         "Christoph Waltz": {
             "name": "Christoph Waltz",
             "age": 62,
-            "total gross": 83452380,
+            "total gross": 83880952,
             "movies": [
                 "Georgetown (film)",
                 "Robert Rodriguez",
@@ -439,7 +439,7 @@
         "Mahershala Ali": {
             "name": "Mahershala Ali",
             "age": 45,
-            "total gross": 50071428,
+            "total gross": 50328571,
             "movies": [
                 "Alita: Battle Angel",
                 "Prowler (comics)",
@@ -466,9 +466,9 @@
         "Ed Skrein": {
             "name": "Ed Skrein",
             "age": 35,
-            "total gross": 33380952,
+            "total gross": 33552380,
             "movies": [
-                "Maleficent II",
+                "Maleficent: Mistress of Evil",
                 "Midway (2019 film)",
                 "Born a King",
                 "Alita: Battle Angel",
@@ -497,7 +497,7 @@
         "Jackie Earle Haley": {
             "name": "Jackie Earle Haley",
             "age": 57,
-            "total gross": 18804761,
+            "total gross": 18890476,
             "movies": [
                 "Alita: Battle Angel",
                 "The Dark Tower (2017 film)",
@@ -1361,7 +1361,7 @@
             "age": 70,
             "total gross": 60714,
             "movies": [
-                "Nomadland",
+                "Nomadland (film)",
                 "Ralph Waldo Emerson",
                 "The Gettysburg Address (film)",
                 "Godzilla: King of the Monsters (2019 film)",
@@ -2324,6 +2324,7 @@
             "age": 29,
             "total gross": 0,
             "movies": [
+                "Inheritance (upcoming film)",
                 "Edith Tolkien",
                 "Tolkien (film)",
                 "Extremely Wicked, Shockingly Evil, and Vile",
@@ -3446,7 +3447,7 @@
                 "Yon-Rogg",
                 "Mandrill (comics)",
                 "Graviton (comics)",
-                "Hulk (comics)",
+                "Hulk",
                 "The Avengers: Earth's Mightiest Heroes",
                 "Fish Hooks",
                 "Major Force",
@@ -3509,7 +3510,7 @@
         },
         "Kevin Connolly (actor)": {
             "name": "Kevin Connolly (actor)",
-            "age": 44,
+            "age": 45,
             "total gross": 0,
             "movies": [
                 "Entourage (film)",
@@ -4651,7 +4652,6 @@
             "age": 50,
             "total gross": 81800000,
             "movies": [
-                "The Dry (film) (page does not exist)",
                 "The Forgiven (film)",
                 "Uther Pendragon",
                 "King Arthur: Legend of the Sword",
@@ -4668,38 +4668,22 @@
                 "Hanna (film)",
                 "Funny People",
                 "The Time Traveler's Wife (film)",
-                "Washington D.C. Area Film Critics Association Award for Best Ensemble",
-                "Teen Choice Award for Choice Movie Villain",
-                "Scream Awards",
-                "Gold Derby Awards",
-                "Boston Society of Film Critics",
                 "Captain Nero",
                 "Star Trek (film)",
                 "Love the Beast",
                 "Mary and Max",
-                "Australian Film Institute International Award for Best Actor",
                 "Henry VIII of England",
                 "The Other Boleyn Girl (2008 film)",
-                "Film Critics Circle of Australia",
-                "AACTA Award for Best Actor in a Leading Role",
                 "Romulus, My Father (film)",
                 "Lucky You (film)",
-                "Australian Film Institute International Award for Best Actor",
                 "Munich (film)",
-                "Brad Pitt",
-                "MTV Movie Award for Best Fight",
                 "Hector",
                 "Troy (film)",
                 "Finding Nemo",
-                "Saturn Award",
                 "Hulk",
                 "Hulk (film)",
                 "The Nugget",
                 "Black Hawk Down (film)",
-                "Stockholm International Film Festival",
-                "Inside Film Awards",
-                "Film Critics Circle of Australia",
-                "AACTA Award for Best Actor in a Leading Role",
                 "Mark \"Chopper\" Read",
                 "Chopper (film)",
                 "The Castle (1997 Australian film)"
@@ -7453,8 +7437,8 @@
             "total gross": 2261904,
             "movies": [
                 "The Devil All the Time",
-                "Swallow (film)",
                 "The Red Sea Diving Resort",
+                "Swallow (film)",
                 "Thank You for Your Service (2017 film)",
                 "Rules Don't Apply",
                 "The Girl on the Train (2016 film)",
@@ -8621,7 +8605,7 @@
             "age": 29,
             "total gross": 5785714,
             "movies": [
-                "The Art of Self-Defense (film)",
+                "The Art of Self-Defense (2019 film)",
                 "I Kill Giants (film)",
                 "Mobile Homes (2017 film)",
                 "Sweet Virginia (film)",
@@ -11288,7 +11272,7 @@
         },
         "La La Anthony": {
             "name": "La La Anthony",
-            "age": 39,
+            "age": 35,
             "total gross": 0,
             "movies": [
                 "Star",
@@ -11835,7 +11819,7 @@
         },
         "Eva Mendes": {
             "name": "Eva Mendes",
-            "age": 44,
+            "age": 45,
             "total gross": 0,
             "movies": [
                 "Lost River (film)",
@@ -12885,7 +12869,7 @@
         },
         "Alita: Battle Angel": {
             "name": "Alita: Battle Angel",
-            "grossing": 350500000,
+            "grossing": 352300000,
             "year": "2019",
             "starring": [
                 "Rosa Salazar",
